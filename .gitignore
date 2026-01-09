@@ -1,6 +1,9 @@
 1.1.0
 qnlp/
 
+Dataset
+saves
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
