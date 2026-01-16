@@ -1,8 +1,7 @@
-pytket
-pytket-qiskit
 lambeq
 discopy
 qiskit
 qiskit-aer-gpu
+pytket
+pytket-qiskit
 tensorboard
-cuquantum

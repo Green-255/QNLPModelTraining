@@ -1,5 +1,10 @@
-1.1.0
 qnlp/
+qnlp_venv/
+env/
+env2/
+venv/
+venv2/
+AiPrompt.txt
 
 Dataset
 saves
