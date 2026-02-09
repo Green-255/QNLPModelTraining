@@ -1,0 +1,8 @@
+ipykernel
+qiskit==1.4.5
+pytket-qiskit==0.66.0
+qiskit-ibm-runtime==0.44.0
+qiskit-aer-gpu==0.15.1
+lambeq==0.4.3
+discopy==1.2.2
+tensorboard==2.20.0

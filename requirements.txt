@@ -1,7 +1,0 @@
-lambeq
-discopy
-qiskit
-qiskit-aer-gpu
-pytket
-pytket-qiskit
-tensorboard
