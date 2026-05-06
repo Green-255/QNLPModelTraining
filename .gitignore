@@ -6,10 +6,12 @@ env/
 env2/
 venv/
 venv2/
-AiPrompt.txt
+WikiHow
 
 Dataset
 saves
+Models
+TransformerSum
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

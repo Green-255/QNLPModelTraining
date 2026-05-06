@@ -1,0 +1,29 @@
+I am working on my bachelors degree. the idea is to initialize a quantum model that creates extractive summaries by training it on a quantum computer, i.e. the theme is QNLP (quantum natural language processing). I already have a code and data, but the code is not done yet.
+So now, let me introduce you to my progress. On top of the basic libraries I am using these:
+from qiskit_aer import AerSimulator
+from pytket.extensions.qiskit import AerBackend
+
+
+from lambeq.backend.grammar import Diagram, Id
+from lambeq import ( BobcatParser, AtomicType, IQPAnsatz, Dataset,
+                RemoveCupsRewriter, SimpleRewriteRule, Rewriter, UnifyCodomainRewriter,
+                QuantumTrainer, TketModel, BinaryCrossEntropyLoss, SPSAOptimizer
+                )
+
+
+from tensorboard.backend.event_processing import event_accumulator
+
+I have already converted my data sentences into Anstaz quantum scheme circuits and saved them in pickle format to quickly acquire them for model training.
+I also am using google colab at the moment and have a100 gpu accessible.
+The strategy is to get the model training work on quantum simulator (Aer Simulator) and then later, if had time left until deadline, try using IBM quantum computer API.
+So, my current situation is that I need to have my training code working.
+
+Note:
+this is for you to know with what I am working on (don't generate code just yet (because I have it, albeit not working), but if you have some notes, please provide them).
+
+
+
+
+I am working on my bachelors degree. the idea is to initialize a `quantum model` that generates `extractive` summaries by training it on a quantum environment, i.e. the theme is `QNLP` (quantum natural language processing). The strategy is to get the model training to work on a quantum simulator - `Aer Simulator`, where I give `TketModel`, `QuantumTrainer` an encoded sentence (sentence's diagram) with its label [1,0] / [0,1] (not included/included in the extractive summary). 
+I need to understand and choose the correct parameters for the AerSimulator, AerBackend, TketModel, and QuantumTrainer.
+
