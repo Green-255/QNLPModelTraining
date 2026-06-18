@@ -11,7 +11,7 @@ qnlp_parse_env/
 qnlp_training_env/
 qnlp_training_newer/
 
-runs
+# runs
 trained_model_summary
 
 Dataset
