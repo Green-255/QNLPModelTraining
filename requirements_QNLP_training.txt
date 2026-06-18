@@ -1,0 +1,8 @@
+ipykernel
+lambeq==0.4.3
+
+spacy
+matplotlib
+pandas
+scikit-learn
+tqdm

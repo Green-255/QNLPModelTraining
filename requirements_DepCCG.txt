@@ -1,0 +1,15 @@
+ipykernel
+lambeq==0.4.3
+
+
+numpy
+cython
+
+depccg
+
+
+spacy
+matplotlib
+pandas
+scikit-learn
+tqdm

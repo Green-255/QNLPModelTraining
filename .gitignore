@@ -6,12 +6,16 @@ env/
 env2/
 venv/
 venv2/
-WikiHow/
+WikiHow_env
 qnlp_parse_env/
 qnlp_training_env/
 qnlp_training_newer/
 
+runs
+trained_model_summary
+
 Dataset
+# Dataset/Raw/WikiHow/wikihowSep.csv
 saves
 Models
 TransformerSum
